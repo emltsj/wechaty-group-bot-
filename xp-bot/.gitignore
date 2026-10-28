@@ -1,0 +1,23 @@
+# 依赖 / dependencies
+node_modules/
+.npm-cache/
+
+# 本地配置（含个人信息）/ local configs with personal data
+.env
+env2
+env3
+env4
+
+# 运行时生成 / runtime artifacts
+*.memory-card.json
+*.log
+
+# 图片素材 / image assets
+images/*
+!images/README.md
+
+# 系统 / OS & editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

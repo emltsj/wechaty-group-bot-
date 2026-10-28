@@ -1,0 +1,29 @@
+# ============================================================
+# 分店 2 配置示例 / Store 3 configuration example
+#
+# 用法 / Usage:
+#   复制本文件为 env3（无扩展名），程序启动时会自动加载
+#   Copy this file to env3 (no extension); it is loaded automatically on startup
+#   不需要该分店就删掉 env3 / Delete env3 if you don't need this store
+# ============================================================
+
+MASTER_NAME='Store3Owner'
+ROOM_LIST='Store3 Group A,Store3 Group B'
+
+SCHEDULE_MESSAGE_DAILY='【分店2】今天正常营业，欢迎下单'
+SCHEDULE_IMAGE_DAILY='images/store3-daily.jpg'
+
+SCHEDULE_MESSAGE_MON='【分店2】周一限定，欢迎预定'
+SCHEDULE_IMAGE_MON='images/store3-mon.jpg'
+
+SCHEDULE_MESSAGE_TUE='【分店2】周二新品，限时供应'
+SCHEDULE_IMAGE_TUE='images/store3-tue.jpg'
+
+SCHEDULE_MESSAGE_WED='【分店2】周三特供，欢迎预定'
+SCHEDULE_IMAGE_WED='images/store3-wed.jpg'
+
+SCHEDULE_MESSAGE_THU='【分店2】周四限定，先到先得'
+SCHEDULE_IMAGE_THU='images/store3-thu.jpg'
+
+SCHEDULE_MESSAGE_FRI='【分店2】周五上新，抓紧下单'
+SCHEDULE_IMAGE_FRI='images/store3-fri.jpg'

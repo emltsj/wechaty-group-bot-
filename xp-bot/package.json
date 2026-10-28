@@ -1,0 +1,30 @@
+{
+  "name": "wechat-bot-scheduler-xp",
+  "version": "1.0.0",
+  "description": "定时微信群发机器人（Windows 微信客户端 Hook 版）| Scheduled WeChat group broadcaster via Windows WeChat client hook",
+  "main": "cli.js",
+  "type": "module",
+  "scripts": {
+    "start": "node cli.js",
+    "dev": "node --watch cli.js"
+  },
+  "keywords": [
+    "wechat",
+    "wechaty",
+    "wechaty-puppet-xp",
+    "bot",
+    "scheduled-message",
+    "group-message"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.14.6",
+    "wechaty": "^1.20.2",
+    "wechaty-puppet-xp": "^1.13.12",
+    "node-schedule": "^2.1.1",
+    "chokidar": "^3.5.3"
+  },
+  "license": "MIT"
+}

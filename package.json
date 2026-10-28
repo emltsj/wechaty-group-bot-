@@ -1,0 +1,31 @@
+{
+  "name": "wechat-bot-scheduler",
+  "version": "1.0.0",
+  "description": "定时微信群发机器人：多分店配置、文字+图片、.env 热更新 | Scheduled WeChat group broadcaster with hot-reload config",
+  "main": "cli.js",
+  "type": "module",
+  "scripts": {
+    "start": "node cli.js",
+    "dev": "node --watch cli.js"
+  },
+  "keywords": [
+    "wechat",
+    "wechaty",
+    "bot",
+    "scheduled-message",
+    "group-message",
+    "node-schedule",
+    "hot-reload"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.14.6",
+    "wechaty": "^1.20.2",
+    "wechaty-puppet-wechat4u": "^1.14.14",
+    "node-schedule": "^2.1.1",
+    "chokidar": "^3.5.3"
+  },
+  "license": "MIT"
+}

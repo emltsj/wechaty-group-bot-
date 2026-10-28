@@ -1,0 +1,29 @@
+# ============================================================
+# 分店 3 配置示例 / Store 4 configuration example
+#
+# 用法 / Usage:
+#   复制本文件为 env4（无扩展名），程序启动时会自动加载
+#   Copy this file to env4 (no extension); it is loaded automatically on startup
+#   不需要该分店就删掉 env4 / Delete env4 if you don't need this store
+# ============================================================
+
+MASTER_NAME='Store4Owner'
+ROOM_LIST='Store4 Group A,Store4 Group B'
+
+SCHEDULE_MESSAGE_DAILY='【分店3】今天正常营业，欢迎下单'
+SCHEDULE_IMAGE_DAILY='images/store4-daily.jpg'
+
+SCHEDULE_MESSAGE_MON='【分店3】周一限定，欢迎预定'
+SCHEDULE_IMAGE_MON='images/store4-mon.jpg'
+
+SCHEDULE_MESSAGE_TUE='【分店3】周二新品，限时供应'
+SCHEDULE_IMAGE_TUE='images/store4-tue.jpg'
+
+SCHEDULE_MESSAGE_WED='【分店3】周三特供，欢迎预定'
+SCHEDULE_IMAGE_WED='images/store4-wed.jpg'
+
+SCHEDULE_MESSAGE_THU='【分店3】周四限定，先到先得'
+SCHEDULE_IMAGE_THU='images/store4-thu.jpg'
+
+SCHEDULE_MESSAGE_FRI='【分店3】周五上新，抓紧下单'
+SCHEDULE_IMAGE_FRI='images/store4-fri.jpg'

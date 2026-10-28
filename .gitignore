@@ -1,0 +1,28 @@
+# 依赖 / dependencies
+node_modules/
+.npm-cache/
+
+# 本地配置：含群名、店主微信名等个人信息，绝对不要提交
+# Local configs: contain personal data (group names, owner WeChat name) — never commit
+.env
+env2
+env3
+env4
+
+# 运行时生成 / runtime artifacts
+*.memory-card.json
+*.log
+
+# 群发图片：可能含商业素材，按需自行决定是否提交
+# Broadcast images: may be private assets; commit only if you really want to
+images/*
+!images/README.md
+xp-bot/images/*
+!xp-bot/images/README.md
+
+# 系统 / 编辑器 / OS & editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,34 @@
+# ============================================================
+# 分店 1 配置示例 / Store 2 configuration example
+#
+# 用法 / Usage:
+#   复制本文件为 env2（无扩展名），程序启动时会自动加载
+#   Copy this file to env2 (no extension); it is loaded automatically on startup
+#   不需要该分店就删掉 env2 / Delete env2 if you don't need this store
+# ============================================================
+
+# 该分店的店主微信名 / Owner WeChat name of this store
+MASTER_NAME='Store2Owner'
+
+# 该分店固定群列表 / Fixed group list of this store
+ROOM_LIST='Store2 Group A,Store2 Group B'
+
+# ========== 常规群发 / Daily ==========
+SCHEDULE_MESSAGE_DAILY='【分店1】今天正常营业，欢迎下单'
+SCHEDULE_IMAGE_DAILY='images/store2-daily.jpg'
+
+# ========== 周一~周五特殊群发 / Monday - Friday special ==========
+SCHEDULE_MESSAGE_MON='【分店1】周一限定，欢迎预定'
+SCHEDULE_IMAGE_MON='images/store2-mon.jpg'
+
+SCHEDULE_MESSAGE_TUE='【分店1】周二新品，限时供应'
+SCHEDULE_IMAGE_TUE='images/store2-tue.jpg'
+
+SCHEDULE_MESSAGE_WED='【分店1】周三特供，欢迎预定'
+SCHEDULE_IMAGE_WED='images/store2-wed.jpg'
+
+SCHEDULE_MESSAGE_THU='【分店1】周四限定，先到先得'
+SCHEDULE_IMAGE_THU='images/store2-thu.jpg'
+
+SCHEDULE_MESSAGE_FRI='【分店1】周五上新，抓紧下单'
+SCHEDULE_IMAGE_FRI='images/store2-fri.jpg'

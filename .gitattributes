@@ -1,0 +1,10 @@
+# 统一换行符，避免 Windows/Linux 协作时整文件 diff
+# Normalize line endings so Windows/Linux collaborators don't see whole-file diffs
+* text=auto eol=lf
+
+# 图片按二进制处理 / treat images as binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.webp binary
